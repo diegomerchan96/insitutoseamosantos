@@ -1,21 +1,21 @@
 const QUESTIONS = [
     {
         title: "PREGUNTA 1 DE 3:",
-        description: "¿Estás en una relación actualmente?",
+        description: "¿Quieres aprender a orar?",
         confirm: "Si",
         deny: "No",
     },
     {
         title: "PREGUNTA 2 DE 3:",
-        description: "¿Quién terminó su última relación?",
-        confirm: "Yo",
-        deny: "El",
+        description: "¿Te gustaría aprender a orar como los discípulos del Señor Jesús lo hacían?",
+        confirm: "Si",
+        deny: "No",
     },
     {
         title: "PREGUNTA 3 DE 3:",
-        description: "Si por medio de un video conocieras la solución definitiva de enamorar a un hombre, ¿Estarías dispuesta a verlo completo?",
-        confirm: "Si, quiero verlo",
-        deny: "No, no deseo",
+        description: "¿Eres cristiano o Cristiano Católico?",
+        confirm: "Cristiano",
+        deny: "Cristiano Católico",
     },
 ];
 
