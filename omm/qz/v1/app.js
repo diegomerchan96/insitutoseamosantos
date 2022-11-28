@@ -30,10 +30,13 @@ btn.forEach(button => {
     button.addEventListener("click", () => {
         button.disabled = true;
         index++;
-
+        
         if (index === QUESTIONS.length) {
             announce.parentElement.classList.add("hidden");
-            window.location.href = "https://camilasuarez.com/experta2";
+            if (button.dataset.response == "true")
+                window.location.href = "https://insitutoseamosantos.com/omm/landingpage/l-ca/index.html";
+            else 
+                window.location.href = "https://insitutoseamosantos.com/omm/landingpage/l-cr/index.html";
             return;
         }
 
