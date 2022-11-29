@@ -27,6 +27,16 @@
 
   }
 
+  .recuerda-titulo{
+    font-size: 18px !important;
+
+  }
+  .recuerda-texto{
+    font-size: 16px !important;
+    padding: 2px 3px !important;
+  }
+
+
 }
 
 * {
@@ -244,6 +254,23 @@ tr {
     margin-top: 0 !important;
   }
 }
+
+  .recuerda-titulo{
+    font-size: 24px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+    color: white; 
+    background: red; 
+    margin-bottom: 0;
+
+  }
+  .recuerda-texto{
+    font-size: 20px;
+    font-family: helvetica, arial, sans-serif;
+    color: red; 
+    border: 1px solid red; 
+    padding: 15px 0;
+  }
 
 .a-btn {
       text-decoration: none;
