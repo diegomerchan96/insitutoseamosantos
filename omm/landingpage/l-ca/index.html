@@ -46,18 +46,18 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=2046241695577262&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-
-
-<h1 id="fomo" style=" font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-align: center; color: #ffffff; font-weight: 600; margin: 0px; line-height: 20px;background: #129CF2; padding: 5px 0;"></h1> 
+<h1 id="fomo" style=" font-size: 14px; font-family: Arial, Helvetica, sans-serif; text-align: center; color: #ffffff; font-weight: 600; margin: 0px; line-height: 25px;background: #129CF2; padding: 8px 0;"></h1> 
 
 <script> 
   var max = 99; 
-  var min = 35; 
+  var min = 44; 
   var resultado = Math.round(Math.random()*(max - min) + parseInt(min)); 
   var fomo = document.querySelector("#fomo");   
   fetch("https://ipwhois.app/json/") 
   .then((response) => response.json()) 
-  .then((data) => (fomo.innerHTML = 'USTED Y '+ '<font style="font-weight: bold; ">' + resultado + ' MUJERES </font> MÁS ESTÁN VIENDO ESTA PRESENTACIÓN DESDE <font style=" text-transform: uppercase;">' + data.country +'</font>')) 
+  .then((data) => (fomo.innerHTML = 'USTED Y '+ '<font style="font-weight: bold; color: #129CF2; background: white;margin: 0 3px; padding: 1px 2px;">' + resultado + ' MUJERES</font> MÁS ESTÁN VIENDO ESTA PRESENTACIÓN DESDE <font style=" text-transform: uppercase; ">' + data.country +'</font>')) 
+
+
 </script>
 
   </head>
