@@ -13,9 +13,9 @@ const QUESTIONS = [
     },
     {
         title: "PREGUNTA 3 DE 3:",
-        description: "¿Eres cristiano o Cristiano Católico?",
-        confirm: "Cristiano",
-        deny: "Cristiano Católico",
+        description: "¿Eres Cristiano Católico o Cristiano?",
+        confirm: "Cristiano Católico",
+        deny: "Cristiano",
     },
 ];
 
