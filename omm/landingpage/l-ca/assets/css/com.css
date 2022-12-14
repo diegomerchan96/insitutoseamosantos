@@ -28,11 +28,11 @@
   }
 
   .recuerda-titulo{
-    font-size: 18px !important;
+    font-size: 20px !important;
 
   }
   .recuerda-texto{
-    font-size: 16px !important;
+    font-size: 19px !important;
     padding: 2px 3px !important;
   }
 
@@ -256,7 +256,7 @@ tr {
 }
 
   .recuerda-titulo{
-    font-size: 24px;
+    font-size: 28px;
     font-family: helvetica, arial, sans-serif;
     font-weight: bold;
     color: white; 
@@ -265,11 +265,13 @@ tr {
 
   }
   .recuerda-texto{
-    font-size: 20px;
+    font-size: 22px;
     font-family: helvetica, arial, sans-serif;
-    color: red; 
+    background: : #fd9cc9; 
+    color: #fff;
     border: 1px solid red; 
     padding: 15px 0;
+
   }
 
 .a-btn {
