@@ -1,20 +1,20 @@
 const QUESTIONS = [
     {
         title: "PREGUNTA 1 DE 3:",
-        description: "¿Quieres aprender a orar?",
+        description: "¿Te gustaría conocer el método de oración que puede conceder el milagro que tanto deseas?",
         confirm: "Si",
         deny: "No",
     },
     {
         title: "PREGUNTA 2 DE 3:",
-        description: "¿Te gustaría aprender a orar como los discípulos del Señor Jesús lo hacían?",
+        description: "¿Quieres aprender a orar y romper toda cadena que te ata al pasado?",
         confirm: "Si",
         deny: "No",
     },
     {
         title: "PREGUNTA 3 DE 3:",
         description: "¿Eres Cristiano Católico o Cristiano?",
-        confirm: "Cristiano Católico",
+        confirm: "Cristiano - Católico",
         deny: "Cristiano",
     },
 ];

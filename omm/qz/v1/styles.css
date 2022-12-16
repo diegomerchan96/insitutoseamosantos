@@ -212,7 +212,7 @@ h2{
 .copy {
     font-family: "Nunito Sans", sans-serif;
     font-size: 14px;
-    padding: 3rem 0;
+    padding: 2.5rem 0;
     margin: 0;
 }
 
@@ -243,14 +243,14 @@ h2{
     }
 
     .no-margin {
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: 15px;
         color: #ff0200;
         font-weight: bold;
     }
 
     .q {
-        font-size: 17px;
+        font-size: 18px;
     }
     .btn{
         padding: 5% 20%;
