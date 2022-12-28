@@ -54,6 +54,7 @@ h6 {
 
 .minor {
     padding: 0 0.3rem;
+    background: #bb0202;
 }
 
 .top {
@@ -156,9 +157,9 @@ h2{
 }
 
 .announce {
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     border-radius: 0 0 15px 15px;
-    background: #ad0f0e;
+    background: #bb0202;
     font-family: "Trebuchet MS", sans-serif;
     transition: all 0.7s ease;
 }
@@ -176,6 +177,7 @@ h2{
     letter-spacing: 1px;
     font-size: 22px;
     margin-bottom: 1rem;
+    margin: 10px 0;
 }
 
 .q {
