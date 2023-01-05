@@ -6,7 +6,13 @@ const QUESTIONS = [
         deny: "No",
     },
     {
-        title: "PREGUNTA 2 DE 2:",
+        title: "PREGUNTA 2 DE 3:",
+        description: "¿Quieres aprender a orar y romper toda cadena que te ata al pasado?",
+        confirm: "Si",
+        deny: "No",
+    },
+    {
+        title: "PREGUNTA 3 DE 3:",
         description: "¿Eres Cristiano Católico o Cristiano?",
         confirm: "Cristiano - Católico",
         deny: "Cristiano",
@@ -28,9 +34,9 @@ btn.forEach(button => {
         if (index === QUESTIONS.length) {
             announce.parentElement.classList.add("hidden");
             if (button.dataset.response == "true")
-                window.location.href = "https://insitutoseamosantos.com/omm/landingpage/l-ca/index.html";
+                window.location.href = "https://insitutoseamosantos.com/omm/landingpage/lc1-ca/index.html";
             else 
-                window.location.href = "https://insitutoseamosantos.com/omm/landingpage/l-cr/index.html";
+                window.location.href = "https://insitutoseamosantos.com/omm/landingpage/lc2-cr/index.html";
             return;
         }
 
