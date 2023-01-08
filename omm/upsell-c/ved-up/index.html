@@ -21,9 +21,6 @@
 
         <!-- Meta Pixel Code -->
         <script>
-
-        setTimeout(function(){
-
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -35,7 +32,6 @@
         fbq('init', '2046241695577262');
         fbq('track', 'PageView');
         fbq('track', 'Purchase', {value: 25.70, currency: 'USD'});
-        }, 4000);
         </script>
         <noscript><img height="1" width="1" style="display:none"
         src="https://www.facebook.com/tr?id=2046241695577262&ev=PageView&noscript=1"
@@ -79,8 +75,9 @@
                     <p>¿Vas a permitirte caer en la monotonía en tu relación con Dios? </p>
                     <p>¿Dejarás perder esa cercanía de Dios en tu corazón, solo porque no sientes esas mismas sensaciones del inicio cuando orabas?</p>
                     <p>Nada es coincidencia "Todo SUCEDE  para NUESTRO bien" Rom 8</p>
-
-                    <u> APROVECHA ESTA OPORTUNIDAD AHORA👇</u>
+                    <div id="prices"></div><br>
+                    <u style="color: red;font-size: 22px;"> APROVECHA ESTA OPORTUNIDAD AHORA👇</u>
+                     <img src="./images/arrow-r.png" alt="" style="margin-top: 2rem;width: 145px;height: 145px;display: block;margin-left: auto;margin-right: auto;" />
                     <p></p>
                 </div>
 
@@ -90,12 +87,14 @@
                     <script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
 
                     <script>
-                    opts = {
-                    key: 'USL-86430-247652-309c951317480c5c0555091cbeac0098',
-                    width: '650' ,
-                    height: '700'
-                    };
-                    Upsell.Widget.show(opts);
+                    setTimeout(function(){
+                        opts = {
+                        key: 'USL-86430-247652-309c951317480c5c0555091cbeac0098',
+                        width: '650' ,
+                        height: '700'
+                        };
+                        Upsell.Widget.show(opts);
+                    }, 9000);
                     </script>
                     <!-- HOTMART - Upsell Widget [end] -->
 
