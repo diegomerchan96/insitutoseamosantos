@@ -32,8 +32,15 @@
 
   }
   .recuerda-texto{
-    font-size: 19px !important;
+    font-size: 16px !important;
     padding: 2px 3px !important;
+  }
+  .price-dw{
+    font-size: 22px !important;
+  }
+
+  .price-up{
+    font-size: 28px !important;
   }
 
 
@@ -268,7 +275,6 @@ tr {
     font-size: 22px;
     font-family: helvetica, arial, sans-serif;
     background: : #fd9cc9; 
-    color: #fff;
     border: 1px solid red; 
     padding: 15px 0;
 
